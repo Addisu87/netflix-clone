@@ -25,7 +25,6 @@ function App() {
 				dispatch(logout());
 			}
 		});
-
 		return unsubscribe;
 	}, []);
 
