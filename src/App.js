@@ -25,8 +25,9 @@ function App() {
 				dispatch(logout());
 			}
 		});
+
 		return unsubscribe;
-	}, []);
+	}, [dispatch]);
 
 	return (
 		<div className='app'>
